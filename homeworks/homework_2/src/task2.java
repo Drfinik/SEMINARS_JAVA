@@ -6,7 +6,7 @@ public class task2 {
         int[] arr = { 5, 1, 4, 2, 8 };
         int n = arr.length;
 
-        try (FileWriter writer = new FileWriter("sort_log.txt")) {
+        try (FileWriter writer = new FileWriter("homeworks\\homework_2\\src\\sort_log.txt")) {
             writer.write("Initial array: " + arrayToString(arr) + "\n");
 
             for (int i = 0; i < n - 1; i++) {
